@@ -1,3 +1,4 @@
+  
 import React from 'react'
 
 const Total = (props) => {
@@ -5,7 +6,7 @@ const Total = (props) => {
         <div style={{ textAlign: 'center' }}>
             <h1>Total:</h1>
             {/* change 4 to props.cars.length */}
-            <h1>4</h1>
+            <h1>{props.cars.length}</h1>
         </div>
     )
 }
